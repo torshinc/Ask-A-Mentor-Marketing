@@ -1,0 +1,401 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
+/* All colors should be defined here */
+/* header accent blue */
+/* background grey */
+/* video shares border */
+/* profile page lower section */
+/* video portrait border */
+/* profile page font color */
+/* profile page expertise box background */
+/* video activity icon */
+/* darker profile page font color */
+/* a lighter grey text (video time ago text) */
+/* group name text color */
+/* video shares text */
+/* entry footer text color */
+/* your activity on video text color */
+/* best practices sidebar */
+/* currently teaching text color, video listing title */
+/* video activity text */
+/* text color */
+/* notification background color */
+/* profile background color */
+/* header background, help page header text */
+/* buttons (upload, carousel select, video actions icons play/volume/clip background) */
+/* profile table background */
+/* entry footer */
+/* Added by David, we can merge redundant colors later */
+/* header avatar border */
+/* header username */
+/* header username hover */
+/* upload button */
+/* upload button hover */
+/* avatar border */
+/* filters background, help apge header color*/
+/* Video list item background */
+/* Video filter header text */
+/* Video filter item text */
+/* Default button grey */
+/* Video action icons */
+/* Active note background */
+/* Help page header text */
+/* Help contact form text */
+/* Help contact form header text */
+/* upload button hover icon */
+/* tags text */
+/* tags background */
+/* tags border */
+/* info button blue */
+/* primary button blue */
+/* note input background blue */
+/* Exemplar fields background blue, support FAQ background */
+/* Exemplar tags text */
+/* Exemplar tags background */
+/* Exemplar tags border */
+/* Exemplar tags border */
+/* End David's colors */
+/* notification circles */
+/* orange highlight text, orange buttons*/
+/* nav bar */
+/* nav bar selected */
+/* mentoring box icons */
+/* video share background */
+/* community page boxes */
+/* various text */
+/* login focus input */
+/* end new colors */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  font-size: 16px;
+}
+body .bold {
+  font-weight: 700;
+}
+#header {
+  height: 42px;
+  width: 100%;
+  position: absolute;
+}
+#header #ask-a-mentor-logo {
+  margin-top: 10px;
+  margin-left: 37px;
+  height: 30px;
+}
+#header .header-links {
+  float: right;
+  padding: 15px;
+}
+#header .header-links button {
+  margin-right: 20px;
+}
+#header .header-links a:not(.btn-white) {
+  margin-right: 20px;
+  color: white;
+  -webkit-transition: color .4s;
+  transition: color .4s;
+}
+#header .header-links a:not(.btn-white):hover {
+  text-decoration: none;
+  color: #1583a9;
+  -webkit-transition: color .4s;
+  transition: color .4s;
+}
+#hero {
+  top: 0;
+  bottom: 0;
+  max-height: 1000px;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background: #373737 url('../img/img-header.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+}
+#hero img {
+  width: 100%;
+  min-width: 700px;
+}
+#hero .hero-text {
+  margin-top: 200px;
+  text-align: center;
+  color: white;
+  font-size: 3em;
+}
+#about {
+  background-color: #1583a9;
+  padding-top: 60px;
+  color: white;
+  min-height: 580px;
+}
+#about .about-header {
+  color: #0e475b;
+  font-size: 2em;
+  margin-bottom: 60px;
+}
+#about .about-item {
+  margin-bottom: 80px;
+}
+#about .about-icon {
+  height: 105px;
+  margin: auto;
+  margin-bottom: 20px;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+#about .icon-mentors {
+  background: url('../img/img1-select-mentors.png') no-repeat;
+  width: 191px;
+}
+#about .icon-turn-time {
+  background: url('../img/img2-48hr-feedback.png') no-repeat;
+  width: 99px;
+}
+#about .icon-feedback {
+  background: url('../img/img3-video-written.png') no-repeat;
+  width: 123px;
+}
+#about .about-item-lead {
+  display: block;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+#how-it-works {
+  background-color: white;
+  padding-top: 60px;
+  color: #bcbcbc;
+  min-height: 580px;
+}
+#how-it-works .how-it-works-text {
+  color: #1583a9;
+  font-size: 2.2em;
+  margin-bottom: 15px;
+}
+#how-it-works .how-it-works-sub-text {
+  font-size: 1.3em;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+#how-it-works .screenshot-image-container {
+  margin-bottom: 60px;
+}
+#how-it-works .screenshot-image-container img {
+  position: relative;
+  margin: auto;
+  width: 80%;
+  height: auto;
+  border-bottom: 2px solid #bcbcbc;
+}
+#how-it-works .how-it-works-image-container {
+  margin-bottom: 60px;
+}
+#how-it-works .how-it-works-image-container img {
+  position: relative;
+  margin: auto;
+  width: 80%;
+  height: auto;
+}
+#meet-our-mentors {
+  background-color: #474e5d;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  color: #8995ae;
+  min-height: 580px;
+}
+#meet-our-mentors .meet-mentors-header-text {
+  color: white;
+  font-size: 2.2em;
+  margin-bottom: 15px;
+}
+#meet-our-mentors .meet-mentors-header-sub-text {
+  font-size: 1.3em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+#meet-our-mentors .mentor-profile {
+  margin-bottom: 20px;
+}
+#meet-our-mentors .mentor-profile .mentor-photo {
+  position: relative;
+  width: 100%;
+}
+#meet-our-mentors .mentor-profile .mentor-photo img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+#meet-our-mentors .mentor-profile .mentor-info {
+  font-size: 1.1em;
+  color: white;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  padding-top: 15%;
+  padding-left: 15%;
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.4);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000);
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000);
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s .4s, opacity .4s linear;
+}
+#meet-our-mentors .mentor-profile .mentor-name-location {
+  position: relative;
+  background-color: white;
+  padding: 10px;
+}
+#meet-our-mentors .mentor-profile .mentor-name-location .name {
+  font-size: 1.5em;
+  color: #1583a9;
+}
+#meet-our-mentors .mentor-profile .mentor-name-location .location {
+  font-size: 1em;
+  color: #676666;
+}
+#meet-our-mentors .mentor-profile:hover .mentor-info {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity .4s linear;
+}
+#meet-our-mentors .mentor-profile .arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  top: -13px;
+  left: 50%;
+  margin-left: -13px;
+  border-width: 0 13px 13px;
+  border-bottom-color: white;
+}
+#meet-our-mentors .learn-more-ntc {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+#meet-our-mentors .learn-more-ntc a {
+  color: #fc9734;
+  -webkit-transition: color .4s;
+  transition: color .4s;
+}
+#meet-our-mentors .learn-more-ntc a:hover {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: color .4s;
+  transition: color .4s;
+}
+#pilot {
+  background-color: #1583a9;
+  padding-top: 80px;
+  color: #f3f3f3;
+  min-height: 580px;
+}
+#pilot .pilot-header-text {
+  color: #0e475b;
+  font-size: 2.2em;
+  margin-bottom: 15px;
+}
+#pilot .pilot-header-sub-text {
+  font-size: 1.3em;
+  color: #7bb2d4;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+#pilot .pilot-description {
+  line-height: 1.7em;
+}
+#pilot .find-mentor-button {
+  letter-spacing: 2px;
+  margin-top: 30px;
+  padding: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1.1em;
+}
+#footer {
+  height: 40px;
+  width: 100%;
+  background: #373737;
+  bottom: 0px;
+  color: #838383;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+#footer #copyright {
+  position: relative;
+  left: 36px;
+  top: 10px;
+}
+#footer #learnMore {
+  text-decoration: none;
+  color: #838383;
+  float: right;
+  margin-top: 11px;
+  margin-right: 30px;
+}
+#footer #learnMore:hover {
+  color: #a4a4a4;
+}
+#signUpModal iframe {
+  width: 100%;
+  min-height: 500px;
+}
+#signUpModal .modal-header {
+  border-bottom: none;
+}
+.btn-orange {
+  border: 0px;
+  border-radius: 30px;
+  color: #ffffff;
+  background: #ff993a;
+  text-shadow: none;
+  font-size: 13px;
+  -webkit-transition: background .4s;
+  transition: background .4s;
+  -webkit-transition: color .4s;
+  transition: color .4s;
+}
+.btn-orange:hover {
+  text-decoration: none;
+  color: #f7f7f7;
+  background: #ff8c21;
+  -webkit-transition: background .4s;
+  transition: background .4s;
+  -webkit-transition: color .4s;
+  transition: color .4s;
+}
+.btn-white {
+  border-radius: 30px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  text-shadow: none;
+  font-size: 13px;
+  padding: 4px;
+  padding-right: 10px;
+  padding-left: 10px;
+  -webkit-transition: background .4s;
+  transition: background .4s;
+  -webkit-transition: color .4s;
+  transition: color .4s;
+  -webkit-transition: border-color 0.4s;
+  transition: border-color 0.4s;
+}
+.btn-white:hover {
+  color: #ff8c21;
+  border-color: #ff8c21;
+  -webkit-transition: background .4s;
+  transition: background .4s;
+  -webkit-transition: color .4s;
+  transition: color .4s;
+  -webkit-transition: border-color 0.4s;
+  transition: border-color 0.4s;
+}
