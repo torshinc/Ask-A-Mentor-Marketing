@@ -15,17 +15,17 @@ body{
 	}
 }
 
-
+#ask-a-mentor-logo{
+	margin-top: 10px;
+	margin-left:37px;
+	height: 50px;
+}
 
 #header{
 	height: 42px;
 	width: 100%;
 	position:absolute;
-	#ask-a-mentor-logo{
-		margin-top: 10px;
-		margin-left:37px;
-		height: 30px;
-	}
+
 	.header-links{
 		float: right;
 		padding: 15px;
@@ -44,6 +44,11 @@ body{
 				transition: color .4s;
 			}
 		}
+	}
+	.collapsed-header-menu{
+		float: right;
+		padding-top: 10px;
+		padding-right: 15px;
 	}
 }
 
@@ -288,16 +293,41 @@ body{
 		left: 36px;
 		top: 10px;
 	}
+	.footer-links{
+		padding-top: 11px;
+		display: inline-block;
+		text-align: right;
+		a{
+			text-decoration: none;
+			color: @footerText;
+			margin-top: 11px;
+			margin-right: 30px;
+			&:hover{
+				color: lighten(@grey3, 10%);
+			}
+		}
+	}
 	#learnMore{
 		text-decoration: none;
 		color: @footerText;
-		float: right;
+		//float: right;
 		margin-top: 11px;
 		margin-right: 30px;
 		&:hover{
 			color: lighten(@grey3, 10%);
 		}
 	}
+}
+
+#terms{
+	background-color: white;
+	padding-top: 60px;
+	color: @footerBackground;
+	min-height: 580px;
+}
+.terms-header{
+	background-color: @footerBackground;
+	min-height: 50px;
 }
 
 #signUpModal{
