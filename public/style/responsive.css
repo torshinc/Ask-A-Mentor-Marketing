@@ -1,7 +1,7 @@
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   #hero {
-    height: 580px;
+    height: 615px;
   }
   .about-icon {
     right: 40px;
@@ -9,40 +9,51 @@
   #how-it-works div .how-it-works-image-container img {
     width: 70%;
   }
+	#footer .footer-links {
+		float: right;
+	}
 }
 /* Medium devices Only (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px) {
   #hero {
-    height: 480px;
+    height: 560px;
   }
   #hero div .hero-text {
     margin-top: 150px;
     font-size: 2.4em;
   }
   #header #ask-a-mentor-logo {
-    height: 25px;
+    height: 65px;
   }
+	#footer .footer-links {
+		float: right;
+	}
 }
 /* Small devices Only (desktops, 992px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
   #hero {
-    height: 400px;
+    height: 530px;
+	  background-position: center;
   }
   #hero div .hero-text {
-    margin-top: 200px;
+    margin-top: 135px;
     font-size: 2em;
   }
   #how-it-works div .screenshot-image-container img {
     width: 100%;
   }
+	#footer .footer-links {
+		float: right;
+	}
 }
 /* Extra Small devices Landscape phones and down */
 @media (max-width: 767px) {
   #hero {
     height: 480px;
+	  background-position: center;
   }
   #hero div .hero-text {
-    margin-top: 200px;
+    margin-top: 110px;
     font-size: 1.6em;
   }
   #how-it-works div .screenshot-image-container img {
@@ -56,9 +67,27 @@
 @media (max-width: 480px) {
   #hero {
     height: 300px;
+	  background-position: center;
   }
   #hero div .hero-text {
-    margin-top: 130px;
+    margin-top: 110px;
     font-size: 1.5em;
+  }
+
+  #meet-our-mentors .mentors-carousel {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #ask-a-mentor-logo {
+    margin-top: 10px;
+    margin-left: 15px;
+    height: 65px;
+  }
+}
+
+@media (max-width: 866px) {
+  #meet-our-mentors .mentors-carousel {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }

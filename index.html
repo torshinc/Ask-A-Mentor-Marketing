@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<head>
+	<title>Ask A Mentor</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="public/style/bootstrap.min.css">
+	<link rel="stylesheet" href="public/style/style.css">
+	<link rel="stylesheet" href="public/style/responsive.css">
+	<link rel="stylesheet" href="public/slick/slick.css">
+
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+	<![endif]-->
+
+	<!--segment.io-->
+	<script type="text/javascript">
+		window.analytics=window.analytics||[],window.analytics.methods=["identify","group","track","page","pageview","alias","ready","on","once","off","trackLink","trackForm","trackClick","trackSubmit"],window.analytics.factory=function(t){return function(){var a=Array.prototype.slice.call(arguments);return a.unshift(t),window.analytics.push(a),window.analytics}};for(var i=0;i<window.analytics.methods.length;i++){var key=window.analytics.methods[i];window.analytics[key]=window.analytics.factory(key)}window.analytics.load=function(t){if(!document.getElementById("analytics-js")){var a=document.createElement("script");a.type="text/javascript",a.id="analytics-js",a.async=!0,a.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.io/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n)}},window.analytics.SNIPPET_VERSION="2.0.9",
+			window.analytics.load("kb775mhqhn");
+		window.analytics.page();
+	</script>
+</head>
+
+<body>
+	<div id="header">
+		<img id="ask-a-mentor-background-hidden" src="public/img/img-header3.jpg">
+		<img id="ask-a-mentor-logo" src="public/img/askamentor-logo2.png">
+		<div class="text-right header-links hidden-xs hidden-sm">
+			<a href="#about" class="about-link">What is 'Ask A Mentor'?</a>
+			<a href="#how-it-works" class="what-is-link">How it Works</a>
+			<a href="#meet-our-mentors" class="meet-link">Meet our Mentors</a>
+			<button class="btn btn-orange find-mentor-button top" data-toggle="modal" data-target="#signUpModal">FIND A MENTOR</button>
+			<a href="http://app.askamentor.org" class="btn btn-white login">Login</a>
+		</div>
+
+		<div class="collapsed-header-menu">
+			<div class="dropdown visible-xs visible-sm">
+				<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+					&#9776;
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu dropdown-menu-right text-left" role="menu" aria-labelledby="dropdownMenu1">
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#about" class="about-link">About</a></li>
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#how-it-works" class="what-is-link">What is 'Ask A Mentor'?</a></li>
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#meet-our-mentors" class="meet-link">Meet our mentors</a></li>
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#" data-toggle="modal" data-target="#signUpModal">FIND A MENTOR</a></li>
+					<li role="presentation" class="divider"></li>
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="http://app.askamentor.org" class="login">Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div align="center">
+		<div id="hero">
+			<div class="col-xs-12">
+				<div class="hero-text">
+					Quality feedback for teachers<br class="hidden-xs"/> from expert mentors,<br class="hidden-xs"/> whenever you want it.
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="about-header">
+						Professional support and feedback <br/> within 48 hours
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-4">
+					<div class="about-item">
+						<div class="about-icon icon-mentors">
+						</div>
+						<span class="about-item-lead">MENTORS SELECTED BY YOU</span>
+						Choose one or more mentors, one for each subject you teach. We help find the best match for you, but you make the final decision and you can change mentors at any time.
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<div class="about-item">
+						<div class="about-icon icon-turn-time">
+						</div>
+						<span class="about-item-lead">FEEDBACK WITHIN 48 HOURS</span>
+						Your mentor is there to support you when you need it. Because we know you need quick feedback, all mentoring requests will be completed within 48 hours.				  </div>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<div class="about-item">
+						<div class="about-icon icon-feedback">
+						</div>
+						<span class="about-item-lead">VIDEO CALL OR <br/> WRITTEN RESPONSE</span>
+						You decide if you want to receive feedback in written form, or if you want to schedule a video call with your mentor.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="how-it-works">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<div class="how-it-works-text">
+						How it Works
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<div class="how-it-works-sub-text">
+						SUPPORT AND HELP WHEN YOU NEED IT
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 screenshot-image-container text-center">
+					<img src="public/img/img-screenshot.png" alt="screenshot"/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 how-it-works-image-container text-center">
+					<img src="public/img/img-how-it-works.png" alt="how it works"/>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="meet-our-mentors">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<div class="meet-mentors-header-text">
+						Meet Our Mentors
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<div class="meet-mentors-header-sub-text">
+						Carefully vetted professionals, matched to your needs
+					</div>
+				</div>
+			</div>
+			<div class="row mentors-carousel">
+				<!-- col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-3  -->
+				<div class="text-center">
+					<div class="mentor-profile">
+						<div class="mentor-photo">
+							<img src="public/img/shannon.jpg" alt="how it works"/>
+							<div class="mentor-info text-left">
+								<span class="bold">1</span> year of mentoring <br/>
+								<span class="bold">10</span> years in academics <br/> <br/>
+								<span class="bold">Areas of Expertise:</span> <br/>
+								Chemistry 9-12<br/>
+								Env Science 9-12<br/>
+								Life Science 6-8
+								<br/><br/>
+								<span class="bold">Education:</span> <br/>
+								New Teacher Center
+							</div>
+						</div>
+						<div class="mentor-name-location">
+							<div class="name">Shannon <br class="visible-md visible-xs"/>McQuaide</div>
+							<div class="location"><img src="public/img/ico-location.png" alt=""/> Scotts Valley, CA</div>
+							<div class="arrow"></div>
+						</div>
+					</div>
+				</div>
+				<div class="text-center">
+					<div class="mentor-profile">
+						<div class="mentor-photo">
+							<img src="public/img/ryan.jpg" alt="how it works"/>
+							<div class="mentor-info text-left">
+								<span class="bold">2</span> years of mentoring <br/>
+								<span class="bold">5</span> years in academics <br/> <br/>
+								<span class="bold">Areas of Expertise:</span> <br/>
+								Science 6-12 <br/>
+								Biology 6-12
+								<br/><br/>
+								<span class="bold">Education:</span> <br/>
+								University of Iowa
+								
+							</div>
+						</div>
+						<div class="mentor-name-location">
+							<div class="name">Ryan <br class="visible-md visible-xs"/>Rydstrom</div>
+							<div class="location"><img src="public/img/ico-location.png" alt=""/> Cedar Rapids, IA</div>
+							<div class="arrow"></div>
+						</div>
+					</div>
+				</div>
+				<div class="text-center">
+					<div class="mentor-profile">
+						<div class="mentor-photo">
+							<img src="public/img/martha.jpg" alt="how it works"/>
+							<div class="mentor-info text-left">
+								<span class="bold">2</span> years of mentoring <br/>
+								<span class="bold">15</span> years in academics <br/> <br/>
+								<span class="bold">Areas of Expertise:</span> <br/>
+								Science 6-12 <br/>
+								Biology 6-12
+								<br/><br/>
+								<span class="bold">Education:</span> <br/>
+								University of New Hampshire
+							</div>
+						</div>
+						<div class="mentor-name-location">
+							<div class="name">Martha <br class="visible-md visible-xs"/>Dion</div>
+							<div class="location"><img src="public/img/ico-location.png" alt=""/> Rhode Island, RI</div>
+							<div class="arrow"></div>
+						</div>
+					</div>
+				</div>
+				<div class="text-center">
+					<div class="mentor-profile">
+						<div class="mentor-photo">
+							<img src="public/img/sheryl.jpg" alt="how it works"/>
+							<div class="mentor-info text-left">
+								<span class="bold">12</span> years of mentoring <br/>
+								<span class="bold">25</span> years in academics <br/> <br/>
+								<span class="bold">Areas of Expertise:</span> <br/>
+								Science 6-12 
+								<br/><br/>
+								<span class="bold">Education:</span> <br/>
+								DeAnza College<br/>
+								San Diego State
+							</div>
+						</div>
+						<div class="mentor-name-location">
+							<div class="name">Sheryl <br class="visible-md visible-xs"/>Pinard</div>
+							<div class="location"><img src="public/img/ico-location.png" alt=""/> Capitola, CA</div>
+							<div class="arrow"></div>
+						</div>
+					</div>
+				</div>
+				<div class="text-center">
+					<div class="mentor-profile">
+						<div class="mentor-photo">
+							<img src="public/img/jeff.jpg" alt="how it works"/>
+							<div class="mentor-info text-left">
+								<span class="bold">6</span> years of mentoring <br/>
+								<span class="bold">30</span> years in academics <br/> <br/>
+								<span class="bold">Areas of Expertise:</span> <br/>
+								Biology 6-12<br/>
+								Chemistry 6-12
+								<br/><br/>
+								<span class="bold">Education:</span> <br/>
+								University of Wisconsin
+							</div>
+						</div>
+						<div class="mentor-name-location">
+							<div class="name">Jeff <br class="visible-md visible-xs"/>Anderson</div>
+							<div class="location"><img src="public/img/ico-location.png" alt=""/> Milwaukee, WI</div>
+							<div class="arrow"></div>
+						</div>
+					</div>
+				</div>
+				<div class="text-center">
+					<div class="mentor-profile">
+						<div class="mentor-photo">
+							<img src="public/img/alicia.jpg" alt="how it works"/>
+							<div class="mentor-info text-left">
+								<span class="bold">2</span> years of mentoring <br/>
+								<span class="bold">12</span> years in academics <br/> <br/>
+								<span class="bold">Areas of Expertise:</span> <br/>
+								Special Ed K-12<br/>
+								General Ed 1-6
+								<br/><br/>
+								<span class="bold">Education:</span> <br/>
+								Providence College,<br/> 
+								Rhode Island College
+							</div>
+						</div>
+						<div class="mentor-name-location">
+							<div class="name">Alicia <br class="visible-md visible-xs"/>Sullivan</div>
+							<div class="location"><img src="public/img/ico-location.png" alt=""/> Rhode Island, RI</div>
+							<div class="arrow"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<div class="learn-more-ntc">
+						Learn more about <a href="http://newteachercenter.org/about-ntc" target="_blank">New Teacher Center <img src="public/img/ico-orange-arrow.png" alt=""/></a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<a href="http://newteachercenter.org/about-ntc" target="_blank">
+						<img src="public/img/img-ntc-logo.png" alt="NTC"/>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="pilot">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<div class="pilot-header-text">
+						Interested in our free pilot?
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<div class="pilot-header-sub-text">
+						SIGN UP FOR FREE!
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 text-center pilot-description">
+					Sign up to participate in our Ask A Mentor pilot. <br class="hidden-xs">
+					We are looking for teachers to help us pioneer/pilot  <br class="hidden-xs"/>
+					this innovative on-demand mentoring service for teachers.
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<div class="">
+						<button class="btn btn-orange find-mentor-button bottom" data-toggle="modal" data-target="#signUpModal">FIND YOUR MENTOR</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		<div class="col-xs-12 col-sm-6">
+			<div class="col-xs-12 col-sm-6 col-lg-4 footer-torsh-blurb">
+				POWERED BY <br/>
+				<img src="public/img/img-torsh-logo.png" class="footer-torsh-logo" alt="TORSH"/>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-lg-8 footer-ntc-blurb">
+				IN PARTNERSHIP WITH <br/>
+				<img src="public/img/img-ntc-logo-grey.png" alt="NTC"/>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6">
+			<div class="footer-links">
+				<a href="http://newteachercenter.org/contact" target="_blank" id="contact">Contact NTC</a>
+				<br/>
+				<a href="terms.html" id="tems">Terms & Conditions</a>
+				<br/>
+				<a href="privacy.html" id="privacy">Privacy Policy</a>
+				<br/>
+				<a href="http://www.torsh.co/" target="_blank" id="learnMore">LEARN MORE ABOUT TORSH</a>
+				<br/>
+				<!--<span id="">&copy; 2014 NTC and TORSH INC.</span>-->
+			</div>
+		</div>
+	</div>
+
+	<div id="signUpModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					<iframe id='signUpModalIframe' src="http://app.askamentor.org/signup" frameborder="0"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="public/js/jquery-2.1.1.min.js"><\/script>')</script>
+
+	<script src="public/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="public/slick/slick.min.js"></script>
+	<script src="public/js/main.js"></script>
+
+</body>
