@@ -19,8 +19,8 @@
     height: 560px;
   }
   #hero div .hero-text {
-    margin-top: 150px;
-    font-size: 2.4em;
+    margin-top: 200px;
+    font-size: 2.8em;
   }
   #header #ask-a-mentor-logo {
     height: 65px;
@@ -37,8 +37,8 @@
 	  position:relative;
   }
   #hero div .hero-text {
-    margin-top: 135px;
-    font-size: 2em;
+    margin-top: 165px;
+    font-size: 2.5em;
   }
   #how-it-works div .screenshot-image-container img {
     width: 100%;
@@ -63,8 +63,8 @@
 	  background-position: center;
   }
   #hero div .hero-text {
-    margin-top: 110px;
-    font-size: 1.6em;
+    margin-top: 135px;
+    font-size: 2.2em;
   }
   #how-it-works div .screenshot-image-container img {
     width: 100%;
@@ -96,7 +96,7 @@
 	  background-position: center;
   }
   #hero div .hero-text {
-    margin-top: 110px;
+    margin-top: 125px;
     font-size: 1.5em;
   }
 
