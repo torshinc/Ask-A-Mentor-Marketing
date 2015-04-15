@@ -34,6 +34,7 @@
   #hero {
     height: 530px;
 	  background-position: center;
+	  position:relative;
   }
   #hero div .hero-text {
     margin-top: 135px;
@@ -42,8 +43,17 @@
   #how-it-works div .screenshot-image-container img {
     width: 100%;
   }
-	#footer .footer-links {
-		float: right;
+  #footer .footer-links {
+	float: right;
+  }
+	#promotion-image{
+		width: 80px;
+	}
+	.promotion-text{
+		font-size: 1.4em;
+	}
+	#signUpModal iframe {
+		min-height: 315px;
 	}
 }
 /* Extra Small devices Landscape phones and down */
@@ -62,11 +72,27 @@
   #how-it-works div .how-it-works-image-container img {
     width: 100%;
   }
+
+	#promotion-image{
+		width: 75px;
+	}
+	.promotion-text{
+		font-size: 1.4em;
+	}
+	.promotion {
+		margin-top: 20px;
+	}
+	.promotion-button{
+		margin-top: 20px;
+	}
+	#signUpModal iframe {
+		min-height: 315px;
+	}
 }
 /* Micro devices only Landscape phones and down */
 @media (max-width: 480px) {
   #hero {
-    height: 300px;
+    height: 400px;
 	  background-position: center;
   }
   #hero div .hero-text {
@@ -83,6 +109,16 @@
     margin-left: 15px;
     height: 65px;
   }
+	#promotion-image{
+		width: 45px;
+	}
+	.promotion-text{
+		font-size: 1em;
+	}
+
+	#signUpModal iframe {
+		min-height: 500px;
+	}
 }
 
 @media (max-width: 866px) {

@@ -7,13 +7,59 @@ window.onmessage = function(e){
 	}
 };
 
+$(document).ready(function(){
+	$('#signUpModalIframe').attr('src', 'http://app.askamentor.org/signup');
+	$('.mentors-carousel').slick({
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 7000,
+		speed: 1200,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 886,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 680,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		]
+	});
+});
+
 //Segment.io behaviour tracking
 $( ".find-mentor-button.top" ).click(function() {
 	analytics.track('Clicked Top Find A Mentor Button');
 });
 
+$( ".find-mentor-button.hero" ).click(function() {
+	analytics.track('Clicked Hero Find A Mentor Button');
+});
+
+$( ".promotion-details a" ).click(function() {
+	analytics.track('Clicked Promotional Details Link');
+});
+
 $( ".find-mentor-button.bottom" ).click(function() {
 	analytics.track('Clicked Bottom Find A Mentor Button');
+});
+
+$(".promotion-text-inner").click(function() {
+	analytics.track('Clicked Promotion Text');
 });
 
 $( ".learn-more-ntc" ).click(function() {
@@ -40,36 +86,4 @@ $( ".login" ).click(function() {
 	analytics.track('Clicked Login');
 });
 
-$(document).ready(function(){
-	$('#signUpModalIframe').attr('src', 'http://app.askamentor.org/signup');
-	$('.mentors-carousel').slick({
-	  	slidesToShow: 4,
-  		slidesToScroll: 1,
-  		autoplay: true,
-  		autoplaySpeed: 7000,
-  		speed: 1200,
-  		responsive: [
-		    {
-		      breakpoint: 1024,
-		      settings: {
-		        slidesToShow: 3,
-		        slidesToScroll: 1
-		      }
-		    },
-		    {
-		      breakpoint: 886,
-		      settings: {
-		        slidesToShow: 2,
-		        slidesToScroll: 1
-		      }
-		    },
-		    {
-		      breakpoint: 680,
-		      settings: {
-		        slidesToShow: 1,
-		        slidesToScroll: 1
-		      }
-		    }
-		]
-	});
-});
+
